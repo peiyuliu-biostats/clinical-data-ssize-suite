@@ -1,0 +1,11 @@
+{
+  "key": "raw_lb_vendor",
+  "label": "Generated messy raw laboratory vendor extract from pharmaverse SDTM LB",
+  "source_standard_dataset": "sdtm_lb.csv",
+  "raw_output": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/raw_lb_vendor.csv",
+  "mapping_key": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_lb_vendor_mapping_key.csv",
+  "expected_standard_reference": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_lb_vendor_expected_lb.csv",
+  "generation_date": "2026-07-07",
+  "method": "deterministic reverse-standardization from public pharmaverse test data",
+  "notes": "vendor lab extract with missing units, mixed case terms, mixed dates, and duplicate rows"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "raw_ae_crf",
+  "label": "Generated messy raw adverse events from pharmaverse SDTM AE",
+  "source_standard_dataset": "sdtm_ae.csv",
+  "raw_output": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/raw_ae_crf.csv",
+  "mapping_key": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_ae_crf_mapping_key.csv",
+  "expected_standard_reference": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_ae_crf_expected_ae.csv",
+  "generation_date": "2026-07-07",
+  "method": "deterministic reverse-standardization from public pharmaverse test data",
+  "notes": "event CRF style data with mixed severity terms, yes/no variation, mixed dates, and duplicate rows"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "raw_vs_clinic",
+  "label": "Generated messy raw vital signs clinic extract from pharmaverse SDTM VS",
+  "source_standard_dataset": "sdtm_vs.csv",
+  "raw_output": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/raw_vs_clinic.csv",
+  "mapping_key": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_vs_clinic_mapping_key.csv",
+  "expected_standard_reference": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_vs_clinic_expected_vs.csv",
+  "generation_date": "2026-07-07",
+  "method": "deterministic reverse-standardization from public pharmaverse test data",
+  "notes": "clinic vital signs extract with missing position, yes/no variation, mixed dates, and duplicate rows"
+}

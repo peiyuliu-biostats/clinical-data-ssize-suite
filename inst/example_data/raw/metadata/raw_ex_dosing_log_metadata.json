@@ -1,0 +1,11 @@
+{
+  "key": "raw_ex_dosing_log",
+  "label": "Generated messy raw exposure dosing log from pharmaverse SDTM EX",
+  "source_standard_dataset": "sdtm_ex.csv",
+  "raw_output": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/raw_ex_dosing_log.csv",
+  "mapping_key": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_ex_dosing_log_mapping_key.csv",
+  "expected_standard_reference": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_ex_dosing_log_expected_ex.csv",
+  "generation_date": "2026-07-07",
+  "method": "deterministic reverse-standardization from public pharmaverse test data",
+  "notes": "dosing log data with unit case variation, route terminology variation, mixed dates, and duplicate rows"
+}

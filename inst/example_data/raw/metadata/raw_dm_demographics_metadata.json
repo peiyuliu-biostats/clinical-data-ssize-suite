@@ -1,0 +1,11 @@
+{
+  "key": "raw_dm_demographics",
+  "label": "Generated messy raw demographics from pharmaverse SDTM DM",
+  "source_standard_dataset": "sdtm_dm.csv",
+  "raw_output": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/raw_dm_demographics.csv",
+  "mapping_key": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_dm_demographics_mapping_key.csv",
+  "expected_standard_reference": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_dm_demographics_expected_dm.csv",
+  "generation_date": "2026-07-07",
+  "method": "deterministic reverse-standardization from public pharmaverse test data",
+  "notes": "subject-level CRF style data with mixed dates, case variation, missing race, and duplicate rows"
+}

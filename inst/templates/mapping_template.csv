@@ -1,0 +1,11 @@
+source_table,source_variable,target_layer,target_dataset,target_variable,variable_label,cleaning_rule,derivation_rule,required,notes
+raw_dm,subject_id,SDTM,DM,USUBJID,Unique Subject Identifier,prefix study id if needed,copy or concatenate STUDYID-SUBJID,yes,Primary subject key
+raw_dm,sex,SDTM,DM,SEX,Sex,map to CDISC controlled terminology,copy after CT mapping,yes,Expected values such as M/F/U
+raw_dm,birth_date,SDTM,DM,BRTHDTC,Date/Time of Birth,parse date to ISO 8601,derive ISO character date,no,Optional depending on source
+raw_ex,dose,SDTM,EX,EXDOSE,Dose,convert numeric and unit if needed,copy standardized dose,no,Exposure dose
+raw_ex,dose_unit,SDTM,EX,EXDOSU,Dose Units,map unit to CDISC terminology,copy after CT mapping,no,Unit normalization required
+raw_ae,ae_term,SDTM,AE,AETERM,Reported Term for the Adverse Event,trim/free-text cleanup,copy reported term,yes,MedDRA coding optional for MVP
+raw_ae,ae_start_date,SDTM,AE,AESTDTC,Start Date/Time of Adverse Event,parse date to ISO 8601,derive ISO character date,no,Timing variable
+raw_rs,response,SDTM,RS,RSSTRESC,Character Result/Finding in Std Format,map response categories,copy standardized response,no,For binary response estimation
+raw_surv,event_date,ADaM,ADTTE,ADT,Analysis Date,parse date to ISO 8601,derive event/censor date,no,Used by sample size estimate-from-data
+raw_surv,event_flag,ADaM,ADTTE,CNSR,Censor,convert to 0/1,derive censor indicator,no,ADTTE convention may differ by project

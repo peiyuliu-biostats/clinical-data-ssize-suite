@@ -1,0 +1,11 @@
+{
+  "key": "raw_rs_oncology",
+  "label": "Generated messy raw oncology response from pharmaverse SDTM RS",
+  "source_standard_dataset": "sdtm_rs_onco.csv",
+  "raw_output": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/raw_rs_oncology.csv",
+  "mapping_key": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_rs_oncology_mapping_key.csv",
+  "expected_standard_reference": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_rs_oncology_expected_rs.csv",
+  "generation_date": "2026-07-07",
+  "method": "deterministic reverse-standardization from public pharmaverse test data",
+  "notes": "oncology response data with response terminology variation, missing reasons, mixed dates, and duplicate rows"
+}

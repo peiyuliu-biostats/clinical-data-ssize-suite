@@ -1,0 +1,13 @@
+source_table,source_variable,target_layer,target_dataset,target_variable,variable_label,cleaning_rule,derivation_rule,required,confidence,recommendation_source,notes
+messy_raw_dm,subject_no,SDTM,DM,SUBJID,Subject Identifier for the Study,trim whitespace and normalize case,copy after cleaning; derive USUBJID = STUDYID-SITEID-SUBJID,yes,reference,curated mapping (senior review),
+messy_raw_dm,site_number,SDTM,DM,SITEID,Study Site Identifier,trim whitespace,copy after cleaning,no,reference,curated mapping (senior review),
+messy_raw_dm,consent_dt,SDTM,DM,RFICDTC,Date/Time of Informed Consent,parse mixed date to ISO 8601,copy after cleaning,no,reference,curated mapping (senior review),
+messy_raw_dm,birth_dt,SDTM,DM,BRTHDTC,Date/Time of Birth,parse mixed date to ISO 8601,copy after cleaning,no,reference,curated mapping (senior review),
+messy_raw_dm,sex_at_birth,SDTM,DM,SEX,Sex,trim whitespace and normalize case; map to CDISC CT (M/F),copy after cleaning,yes,reference,curated mapping (senior review),
+messy_raw_dm,race_text,SDTM,DM,RACE,Race,normalize case; map to CDISC RACE CT; review missing,copy after cleaning,no,reference,curated mapping (senior review),
+messy_raw_dm,ethnicity_text,SDTM,DM,ETHNIC,Ethnicity,normalize case; map to CDISC ETHNIC CT,copy after cleaning,no,reference,curated mapping (senior review),
+messy_raw_dm,planned_arm,SDTM,DM,ARM,Planned Arm,trim whitespace,copy after cleaning; derive ARMCD,no,reference,curated mapping (senior review),
+messy_raw_dm,actual_arm,SDTM,DM,ACTARM,Description of Actual Arm,trim whitespace,copy after cleaning; derive ACTARMCD,no,reference,curated mapping (senior review),
+messy_raw_dm,country_name,SDTM,DM,COUNTRY,Country,normalize case; map to ISO 3166 (USA),copy after cleaning,no,reference,curated mapping (senior review),
+messy_raw_dm,treatment_start,SDTM,DM,RFXSTDTC,Date/Time of First Study Treatment,parse mixed date to ISO 8601,copy after cleaning,no,reference,curated mapping (senior review),
+messy_raw_dm,death_flag,SDTM,DM,DTHFL,Subject Death Flag,yes/no normalize to Y/N; invalid -> flag,copy after cleaning,no,reference,curated mapping (senior review),

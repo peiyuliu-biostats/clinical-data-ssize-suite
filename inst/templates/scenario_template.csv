@@ -1,0 +1,6 @@
+scenario_id,endpoint_type,design_type,test_objective,sided,alpha,power,pc,pt,mu_c,mu_t,sd,median_c,median_t,accrual,followup,margin,allocation_ratio,notes
+BIN_BASE,binary,one-sample,equality,one-sided,0.05,0.80,0.20,0.50,,,,,,,,,1,TrialDesign binary one-sample reference example
+CON_BASE,continuous,one-sample,equality,one-sided,0.05,0.80,,,0.20,0.50,1.00,,,,,,1,TrialDesign continuous one-sample reference example
+TTE_BASE,survival,one-sample,equality,one-sided,0.05,0.80,,,,,,3,7,3,9,,1,TrialDesign survival one-sample reference example
+BIN_SUP,binary,two-sample,superiority,one-sided,0.025,0.90,0.30,0.45,,,,,,,,0.05,1,Example superiority scenario
+TTE_TWO,survival,two-sample,equality,one-sided,0.025,0.80,,,,,,10,14,12,18,,1,Example two-sample log-rank scenario

@@ -1,0 +1,94 @@
+url: https://pharmaverse.github.io/pharmaversesdtm
+
+template:
+  bootstrap: 5
+  light-switch: true
+  params:
+    bootswatch: flatly
+  includes:
+    css: pkgdown/extra.css
+repo:
+  url:
+    home: https://github.com/pharmaverse/pharmaversesdtm
+    source: https://github.com/pharmaverse/pharmaversesdtm/blob/main/
+    issue: https://github.com/pharmaverse/pharmaversesdtm/issues/
+    user: https://github.com/
+news:
+  cran_dates: true
+
+development:
+  mode: auto
+
+authors:
+  footer:
+    roles: [aut, cre]
+    text: "Developed by Cytel Inc., F. Hoffmann-La Roche AG, GlaxoSmithKline LLC, "
+  sidebar:
+    roles: [aut, fnd]
+  Cytel Inc.:
+    html: "<a href='https://www.cytel.com/'><img src='man/figures/cytel_logo.png' height='25' alt='Cytel logo' /></a>"
+    href: https://www.cytel.com/
+  F. Hoffmann-La Roche AG:
+    html: "<a href='https://www.roche.com/'><img src='man/figures/roche_logo.png' height='32' alt='Roche logo' /></a>"
+    href: https://www.roche.com/
+  GlaxoSmithKline LLC:
+    html: "<a href='https://www.gsk.com/'><img src='man/figures/gsk_logo.png' height='20' alt='GSK logo' /></a>"
+    href: https://gsk.com/
+
+navbar:
+  structure:
+    left: [reference, preview, news]
+    right: [search, slack, newissue, github, lightswitch]
+  components:
+    reference:
+      text: Reference
+      href: reference/index.html
+    preview:
+      text: Explore SDTM Datasets
+      href: articles/preview-sdtm.html
+    slack:
+      icon: fa-slack
+      href: https://pharmaverse.slack.com/
+      aria-label: Join the pharmaverse Slack!
+    newissue:
+      icon: fa-bug
+      href: https://github.com/pharmaverse/pharmaversesdtm/issues/new/choose
+      aria-label: Report an issue
+
+reference:
+  - title: "Generic Datasets"
+    contents:
+      - has_keyword("generic")
+
+  - title: "Metabolism Datasets"
+    contents:
+      - has_keyword("metabolic")
+
+  - title: "Microbiology Datasets"
+    contents:
+      - has_keyword("microbiology")
+
+  - title: "Neurology Datasets"
+    contents:
+      - has_keyword("neurology")
+
+  - title: "Oncology Datasets"
+    contents:
+      - has_keyword("oncology")
+
+  - title: "Ophthalmology Datasets"
+    contents:
+      - has_keyword("ophthalmology")
+
+  - title: "Pediatrics Datasets"
+    contents:
+      - has_keyword("pediatrics")
+
+  - title: "Vaccine Datasets"
+    contents:
+      - has_keyword("vaccine")
+
+  - title: "Functions"
+    desc: "List of all available functions."
+    contents:
+      - get_terms

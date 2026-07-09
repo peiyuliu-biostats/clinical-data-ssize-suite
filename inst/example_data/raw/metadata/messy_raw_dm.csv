@@ -1,0 +1,37 @@
+subject_no,site_number,consent_dt,birth_dt,sex_at_birth,race_text,ethnicity_text,planned_arm,actual_arm,country_name,treatment_start,death_flag,investigator_comment
+1015,708,,12/08/1950,F,white,,Xanomeline High Dose,Xanomeline High Dose,USA,20130204,,
+1019,701,20130822,10-Sep-1962,f,WHITE,,Xanomeline Low Dose,Xanomeline Low Dose,usa,2013-03-17,N,patient withdrew consent
+1021,702,2013-01-18,19660525,f,asian,not hispanic or latino,Xanomeline Low Dose,Xanomeline Low Dose,USA ,04/24/2013,No,  late visit 
+1025,702,12/12/2013,1958-05-13,m,,NOT HISPANIC OR LATINO,Xanomeline Low Dose,Xanomeline Low Dose,U.S.A.,06-Jun-2013,n,  late visit 
+1027,701,26-Jul-2013,04/27/1960,m,white,HISPANIC OR LATINO,Xanomeline High Dose,Xanomeline High Dose,USA,20130505,Yes,
+ 1031 ,708,20130612,03-Jul-1951, F,,NOT HISPANIC OR LATINO,Placebo,Placebo,United States,2013-05-12,Y,f/u ok
+1033,702,2013-06-02,19500227,m,ASIAN,NOT HISPANIC OR LATINO,Placebo,Placebo,United States,01/15/2013,0,f/u ok
+1037,701,,1946-10-14,m,asian,HISPANIC OR LATINO,Xanomeline Low Dose,Xanomeline Low Dose,USA,28-Dec-2013,1,
+1039,701,08-May-2013,08/27/1953,m,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Placebo,Placebo,USA,20131028,TRUE,
+1043,701,20130606,31/02/2013,f,asian,not hispanic or latino,Xanomeline High Dose,Xanomeline High Dose,United States,2013-09-09,,
+1045,708,2013-08-03,19610627,m,white,HISPANIC OR LATINO,Xanomeline Low Dose,Xanomeline Low Dose,USA ,11/05/2013,N,
+1049,702,07/13/2013,1956-07-06,f,white,HISPANIC OR LATINO,Placebo,Placebo,usa,12-Sep-2013,No,
+1051,708,03-Dec-2013,10/17/1941,m,,,Xanomeline Low Dose,Xanomeline Low Dose,United States,20131202,n,  late visit 
+1055,702,20131011,10-Oct-1945,f,,HISPANIC OR LATINO,Placebo,Placebo,United States,2013-07-09,Yes,
+1057,708,,19400401, F,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Placebo,Placebo,USA ,08/20/2013,Y,
+1061,708,01/26/2013,1961-11-14,m,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Placebo,Placebo,USA ,12-Jul-2013,0,  late visit 
+1063,708,22-Feb-2013,01/20/1954,f,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Xanomeline High Dose,Xanomeline High Dose,usa,20130122,1,f/u ok
+1067,702,20130620,03-Dec-1967,M,WHITE,,Placebo,Placebo,USA,2013-12-07,UNKNOWN,patient withdrew consent
+1069,701,2013-03-08,19450902,F,ASIAN,NOT HISPANIC OR LATINO,Xanomeline High Dose,Xanomeline High Dose,USA,11/05/2013,,
+1073,708,09/05/2013,1957-11-13,f,ASIAN,not hispanic or latino,Xanomeline High Dose,Xanomeline High Dose,U.S.A.,08-Nov-2013,N,patient withdrew consent
+1075,702,25-Jul-2013,03/02/1944,M,WHITE,NOT HISPANIC OR LATINO,Placebo,Placebo,usa,20130110,No,  late visit 
+1079,702,,08-Jan-1938,m,BLACK OR AFRICAN AMERICAN,HISPANIC OR LATINO,Xanomeline High Dose,Xanomeline High Dose,United States,2013-06-02,n,patient withdrew consent
+1081,701,2013-03-07,19490211, F,asian,HISPANIC OR LATINO,Placebo,Placebo,United States,03/05/2013,Yes,
+1085,702,02/04/2013,1943-05-05, F,white,HISPANIC OR LATINO,Xanomeline High Dose,Xanomeline High Dose,U.S.A.,03-Aug-2013,Y,  late visit 
+1087,702,10-Apr-2013,08/23/1959,f,WHITE,NOT HISPANIC OR LATINO,Placebo,Placebo,U.S.A.,20130502,0,patient withdrew consent
+1091,701,20130310,11-Dec-1941,M,white,NOT HISPANIC OR LATINO,Xanomeline High Dose,Xanomeline High Dose,USA ,2013-02-23,1,  late visit 
+1093,708,2013-07-15,19600802,m,white,HISPANIC OR LATINO,Xanomeline Low Dose,Xanomeline Low Dose,USA ,03/05/2013,TRUE,
+1097,708,10/20/2013,1953-01-10,f,,,Placebo,Placebo,U.S.A.,01-Dec-2013,,f/u ok
+1099,703,,08/15/1945,F,,NOT HISPANIC OR LATINO,Xanomeline Low Dose,Xanomeline Low Dose,USA ,20130724,N,f/u ok
+1103,703,20130111,27-Jun-1955, F,BLACK OR AFRICAN AMERICAN,not hispanic or latino,Placebo,Placebo,U.S.A.,2013-09-20,No,  late visit 
+1105,703,2013-10-06,19630724,f,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Xanomeline Low Dose,Xanomeline Low Dose,United States,11/10/2013,n,
+1109,701,12/08/2013,1939-01-21,M,asian,HISPANIC OR LATINO,Xanomeline High Dose,Xanomeline High Dose,United States,05-Oct-2013,Yes,
+1111,702,12-Feb-2013,08/27/1949, F,asian,,Placebo,Placebo,U.S.A.,20130720,Y,patient withdrew consent
+1115,708,20131128,23-Jun-1959,M,WHITE,HISPANIC OR LATINO,Placebo,Placebo,usa,2013-05-25,0,
+1025,702,12/12/2013,1958-05-13,m,,NOT HISPANIC OR LATINO,Xanomeline Low Dose,Xanomeline Low Dose,U.S.A.,06-Jun-2013,n,  late visit 
+1051,708,03-Dec-2013,10/17/1941,m,,,Xanomeline Low Dose,Xanomeline Low Dose,United States,20131202,n,  late visit 

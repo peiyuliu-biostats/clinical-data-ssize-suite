@@ -1,0 +1,11 @@
+{
+  "key": "raw_tte_events",
+  "label": "Generated messy raw time-to-event extract from pharmaverse ADaM ADTTE",
+  "source_standard_dataset": "adam_adtte_onco.csv",
+  "raw_output": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/raw_tte_events.csv",
+  "mapping_key": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_tte_events_mapping_key.csv",
+  "expected_standard_reference": "C:/Users/TopSoarer/Desktop/Dr.Liu Personal/Git-Rshiny/sample-size-dataformat/inst/example_data/raw/metadata/raw_tte_events_expected_adtte.csv",
+  "generation_date": "2026-07-07",
+  "method": "deterministic reverse-standardization from public pharmaverse test data",
+  "notes": "time-to-event analysis source extract with event/censor recoding, mixed dates, and duplicate rows"
+}
