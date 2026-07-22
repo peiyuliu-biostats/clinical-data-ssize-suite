@@ -5,7 +5,7 @@ account: peiyuliu
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 17631154
-bundleId: 12301628
+bundleId: 12301930
 url: https://peiyuliu.shinyapps.io/clinical-data-ssize-suite/
 version: 1
 asMultiple: FALSE
