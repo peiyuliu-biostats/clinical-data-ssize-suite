@@ -1,6 +1,7 @@
 # Clinical Trial Data Standards & Sample Size Suite
 
 Rshiny link: https://peiyuliu.shinyapps.io/clinical-data-ssize-suite/
+
 An R Shiny application for clinical trials that combines two connected tasks: 
 
 - **Data standardization** — profile raw data, map it to SDTM/ADaM, build datasets, run QC, and export.
