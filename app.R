@@ -270,27 +270,18 @@ ui <- dashboardPage(
               "with an independent method before use in a study protocol."),
 
             h4("11. References"),
-            tags$ul(
+            tags$ol(
               tags$li("Schoenfeld DA. Sample-size formula for the proportional-hazards regression model. ",
-                      "Biometrics. 1983;39(2):499–503."),
+                      "Biometrics. 1983;39(2):499–503. doi:10.2307/2531021."),
               tags$li("Chow SC, Shao J, Wang H, Lokhnygina Y. Sample Size Calculations in Clinical Research. ",
-                      "3rd ed. Chapman and Hall/CRC; 2018."),
-              tags$li("Julious SA. Sample Sizes for Clinical Trials. Chapman and Hall/CRC; 2010."),
-              tags$li("CDISC. Study Data Tabulation Model (SDTM) and Analysis Data Model (ADaM) Implementation Guides. ",
-                      "https://www.cdisc.org."),
-              tags$li("pharmaverse example SDTM/ADaM data and PHUSE Test Data Factory resources ",
-                      "(staged under inst/ in this repository).")
-            ),
-
-            tags$hr(),
-            h4("Author"),
-            p(tags$b("Peiyu Liu"), tags$br(),
-              "Department of Biostatistics, University of Florida", tags$br(),
-              "Contact: ", tags$a(href = "mailto:peiyu.liu.stats@gmail.com", "peiyu.liu.stats@gmail.com"), tags$br(),
-              "Source code: ",
-              tags$a(href = "https://github.com/peiyuliu-biostats/clinical-data-ssize-suite",
-                     target = "_blank", "github.com/peiyuliu-biostats/clinical-data-ssize-suite")),
-            p(class = "suite-muted", "Questions and suggestions are welcome.")
+                      "3rd ed. Boca Raton, FL: Chapman & Hall/CRC; 2018."),
+              tags$li("Julious SA. Sample Sizes for Clinical Trials. Boca Raton, FL: Chapman & Hall/CRC; 2010."),
+              tags$li("Clinical Data Interchange Standards Consortium (CDISC). Study Data Tabulation Model ",
+                      "(SDTM) and Analysis Data Model (ADaM) Standards. Available at: https://www.cdisc.org."),
+              tags$li("pharmaverse contributors. pharmaverse: Open-source clinical trial data standards and ",
+                      "analysis resources. Available at: https://pharmaverse.org."),
+              tags$li("PHUSE. Test Data Factory. Available at: https://github.com/phuse-org/TestDataFactory.")
+            )
           )
         )
       ),
@@ -300,17 +291,12 @@ ui <- dashboardPage(
           box(
             title = "Author", width = 12, status = "info",
             solidHeader = TRUE, collapsible = FALSE,
-            h3("Peiyu Liu"),
-            p("Department of Biostatistics", tags$br(),
-              "University of Florida"),
-            p(tags$b("Contact: "),
-              tags$a(href = "mailto:peiyu.liu.stats@gmail.com", "peiyu.liu.stats@gmail.com")),
-            p(tags$b("Source code: "),
-              tags$a(href = "https://github.com/peiyuliu-biostats/clinical-data-ssize-suite",
-                     target = "_blank", "github.com/peiyuliu-biostats/clinical-data-ssize-suite")),
-            p(class = "suite-muted",
-              "An R Shiny suite for clinical data standardization, ADaM-driven assumption estimation, ",
-              "and endpoint-specific sample-size calculation. Questions and suggestions are welcome.")
+            h3("Author"),
+            p("Peiyu Liu"),
+            p("Department of Biostatistics, University of Florida"),
+            h3("Contact"),
+            p(tags$a(href = "mailto:peiyu.liu.stats@gmail.com", "peiyu.liu.stats@gmail.com")),
+            p("Welcome reach out.")
           )
         )
       )

@@ -175,10 +175,12 @@ Each calculation is valid only under its stated model (normal approximation or e
 
 ## References
 
-- Schoenfeld DA. Sample-size formula for the proportional-hazards regression model. *Biometrics.* 1983;39(2):499–503.
-- Chow SC, Shao J, Wang H, Lokhnygina Y. *Sample Size Calculations in Clinical Research.* 3rd ed. Chapman and Hall/CRC; 2018.
-- Julious SA. *Sample Sizes for Clinical Trials.* Chapman and Hall/CRC; 2010.
-- CDISC. Study Data Tabulation Model (SDTM) and Analysis Data Model (ADaM) Implementation Guides. <https://www.cdisc.org>.
+1. Schoenfeld DA. Sample-size formula for the proportional-hazards regression model. *Biometrics.* 1983;39(2):499–503. doi:10.2307/2531021.
+2. Chow SC, Shao J, Wang H, Lokhnygina Y. *Sample Size Calculations in Clinical Research.* 3rd ed. Boca Raton, FL: Chapman & Hall/CRC; 2018.
+3. Julious SA. *Sample Sizes for Clinical Trials.* Boca Raton, FL: Chapman & Hall/CRC; 2010.
+4. Clinical Data Interchange Standards Consortium (CDISC). Study Data Tabulation Model (SDTM) and Analysis Data Model (ADaM) Standards. Available at: <https://www.cdisc.org>.
+5. pharmaverse contributors. pharmaverse: Open-source clinical trial data standards and analysis resources. Available at: <https://pharmaverse.org>.
+6. PHUSE. Test Data Factory. Available at: <https://github.com/phuse-org/TestDataFactory>.
 
 ---
 
